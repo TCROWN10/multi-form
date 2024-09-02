@@ -186,7 +186,7 @@ function switchPrice(checked) {
   
       val += Number(res);
     }
-    total.innerHTML = `$${val + Number(res)}/$ {time?"yr":"mo"}`;
+    total.innerHTML = `$${val + Number(res)}/${time?"yr":"mo"}`;
   }
   
   function setTime(t) {
